@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<title></title>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row ">
+<div class="col-md-2 col-ms-4 elements ">
+	<h2>elements</h2>
+	<h3>Most used</h3>
+	<div class="btns">
+	<button type="button" class="btn btn-default btn-block" onclick="tt()">titre</button>
+	<button type="button" class="btn btn-default btn-block" onclick="par()">paragraphe</button>
+	<button type="button" class="btn btn-default btn-block" onclick="lio()">liste ordonnée</button>
+	<button type="button" class="btn btn-default btn-block" onclick="lino()">liste non ordonnée</button>
+	<button type="button" class="btn btn-default btn-block" onclick="picture()">image</button>
+	<button type="button" class="btn btn-default btn-block" onclick="vid()">video</button>	
+	<button type="button" class="btn btn-default btn-block" onclick="lien()">lien</button>
+	<button type="button" class="btn btn-default btn-block" onclick="sound()">audio</button>
+	<button type="button" class="btn btn-default btn-block" onclick="formule()">formulaire</button>
+	</div>
+</div>
+
+<div class="col-md-5 col-ms-8 code">
+	<h2>code</h2>
+	<div class="content" >
+		<p class="des">see code</p>
+		<div style="display:none;" id="11" ><xmp><h1>Titre</h1></xmp></div>
+		<div style="display:none;" id="22" ><xmp><p>ceci est un paragraphe</p></xmp></div>
+		<div style="display:none;" id="33" >
+		<xmp><ul><li>text1</li><li>text2</li><li>text3</li></ul></xmp>
+		</div>
+		<div style="display:none;" id="44" >
+			<xmp><ol><li>text1</li><li>text2</li><li>text3</li></ol></xmp>
+		</div>
+		<div style="display:none;" id="55" ><xmp><img src='res/hh.jpg'></xmp></div>
+		<div style="display:none;" id="66" ><xmp><video src="res/hhh.mp4" controls></video></xmp></div>
+		<div style="display:none;" id="77" ><xmp><a href="https://gomycode.tn/"></a></xmp></div>
+		<div style="display:none;" id="88" ><xmp><audio src='res/tenten.mp3'controls></audio></xmp></div>
+		<div style="display:none;" id="99" > 
+			<xmp><form>
+			First name:<br>
+			<input type='text' name='firstname' ><br>
+			Last name:<br>
+			<input type='text' name='lastname' ><br><br>
+			<input type='submit' value='Submit'>
+		</form></xmp>
+        </div>
+	</div>
+</div>
+
+<div class="col-md-5 col-ms-8 preview">
+	<h2>preview</h2>
+	<div >
+		<p class="des">try elements</p>
+		<h1  style="display:none;" id="text">Titre</h1>
+		<p  style="display:none;" id="para">ceci est un paragraphe</p>
+		<ul  style="display:none;" id="l1">
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+		</ul>
+		<ol  style="display:none;" id="l2">
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+		</ol>
+		<img  style="display:none;" src="res/hh.jpg" id="tof">
+		<video  style="display:none;" src="res/hhh.mp4" controls id="kk"></video><br>
+		<a  style="display:none;" href="https://gomycode.tn/" id="hez">link</a><br>
+		<audio  style="display:none;" src='res/tenten.mp3'controls id="sou"></audio>
+		<form  style="display:none;"lass="nn" id="fill" >
+			First name:<br>
+			<input type='text' name='firstname' ><br>
+			Last name:<br>
+			<input type='text' name='lastname' ><br><br>
+			<input type='submit' value='Submit'>
+		</form>
+		
+	</div>
+	</div>
+</div>
+</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</html>
